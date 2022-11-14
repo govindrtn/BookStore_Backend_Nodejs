@@ -1,0 +1,48 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-09T19:35:53.464Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T19:35:53.949Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-09T19:36:16.794Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T19:36:16.861Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T05:26:51.837Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T05:26:55.205Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T05:40:34.401Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T05:40:34.769Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T06:35:46.622Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T06:35:46.751Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/636ab8743338ef19a88b941cgd 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-10T07:03:33.183Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/636ab8743338ef19a88b94 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-10T07:03:41.324Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T16:01:07.624Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T16:01:08.315Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T16:23:58.200Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T16:23:58.300Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T18:06:34.842Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T18:06:35.095Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T18:20:48.591Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T18:20:48.634Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T18:23:15.092Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T18:23:15.250Z"}

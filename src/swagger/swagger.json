@@ -1,0 +1,531 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "V1",
+        "title": " Book Store ",
+        "description": " book_Store App API"
+    },
+    "host": "localhost:3001",
+    "basePath": "/api/v1/",
+    "tags": [
+        {
+            "name": "Books Store",
+            "description": "Creating user"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users/register": {
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "description": "New user registration",
+                "parameters": [
+                    {
+                        "name": "Create User",
+                        "in": "body",
+                        "description": "User",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New User created successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "description": " Login sucessfully.... ",
+                "parameters": [
+                    {
+                        "name": "User Login",
+                        "in": "body",
+                        "description": "login Detals",
+                        "schema": {
+                            "$ref": "#/definitions/login"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "new user is created...."
+                    },
+                    "500": {
+                        "description": "error"
+                    }
+                }
+            }
+        },
+        "/books/createbook": {
+            "post": {
+                "tags": [
+                    "Books"
+                ],
+                "summary": "Create a new Book ",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Create a new Book ",
+                        "in": "body",
+                        "description": "Create a new book",
+                        "required": false,
+                        "type": "string",
+                        "schema": {
+                            "$ref": "#/definitions/createbook"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New book created succesfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/books/getallbook/": {
+            "get": {
+                "tags": [
+                    "Notes"
+                ],
+                "summary": "Get all Books",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "Get all Books",
+                        "description": "Get all Books for User",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All Book fetched successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/books/{_id}": {
+            "get": {
+                "tags": [
+                    "Books"
+                ],
+                "summary": "Get a single book by id",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "description": "Id",
+                        "required": true,
+                        "type": "string",
+                        "schema": {
+                            "$ref": "#/definitions/createbook"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Single Book fetched succesfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "put": {
+                "tags": [
+                    "Books"
+                ],
+                "summary": "Update Book by id",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "Update",
+                        "in": "body",
+                        "description": "Update Book by their id",
+                        "required": false,
+                        "type": "string",
+                        "schema": {
+                            "$ref": "#/definitions/createbook"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Book updated successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "delete": {
+                "tags": [
+                    "Books"
+                ],
+                "summary": "Delete a Book",
+                "description": "Delete Book",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "description": "Delete Book by their id",
+                        "schema": {
+                            "$ref": "#/definitions/createbook"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Note deleted successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+            
+        },
+        "/carts/createcart": {
+            "post": {
+                "tags": [
+                    "Books"
+                ],
+                "summary": "Create a new Cart ",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Create a new Cart ",
+                        "in": "body",
+                        "description": "Create a new cart",
+                        "required": false,
+                        "type": "string",
+                        "schema": {
+                            "$ref": "#/definitions/createcart"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New cart created succesfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/carts/getAllCart/": {
+            "get": {
+                "tags": [
+                    "Carts"
+                ],
+                "summary": "Get all Carts",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "Get all Carts",
+                        "description": "Get all Carts for User",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All Cart fetched successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/costumers/createCostumer": {
+            "post": {
+                "tags": [
+                    "Costumer"
+                ],
+                "summary": "Create a new Costumer ",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Create a new Costumer ",
+                        "in": "body",
+                        "description": "Create a new costumer",
+                        "required": false,
+                        "type": "string",
+                        "schema": {
+                            "$ref": "#/definitions/createcostumer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New Costumer created succesfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/costumers/getAllCostumer/": {
+            "get": {
+                "tags": [
+                    "Costumer"
+                ],
+                "summary": "Get all Costumer",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "Get all Costumer",
+                        "description": "Get all Costumer for User",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All Costumer fetched successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        }
+    },
+    "securityDefinitions": {
+        "JWT": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    },
+    "definitions": {
+        "User": {
+            "type": "object",
+            "properties": {
+                "fullName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "mobile": {
+                    "type": "string"
+                }
+            }
+        },
+        "login": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "createbook": {
+            "type": "object",
+            "properties": {
+                "author": {
+                    "type": "string"
+                },
+                "bookImage": {
+                    "type": "string"
+                },
+                "bookName": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "discountPrice": {
+                    "type": "string"
+                },
+                "price": {
+                    "type": "string"
+                },
+                "quantity": {
+                    "type": "string"
+                }
+            }
+        },
+        "createcart": {
+            "type": "object",
+            "properties": {
+                "userId": {
+                    "type": "String"
+                },
+                "books": [
+                    {
+                        "productId": {
+                            "type": "String"
+                        },
+                        "description": {
+                            "type": "String"
+                        },
+                        "bookName": {
+                            "type": "String"
+                        },
+                        "bookImage": {
+                            "type": "String"
+                        },
+                        "author": {
+                            "type": "String"
+                        },
+                        "quantity": {
+                            "type": "Number"
+                        },
+                        "price": {
+                            "type": "Number"
+                        }
+                    }
+                ],
+                "cart_total": {
+                    "type": "Number"
+                },
+                "isPurchased": {
+                    "type": "Boolean"
+                }
+            }
+        },
+        "createcostumer": {
+            "type": "object",
+            "properties": {
+                "userId": {
+                    "type": "String"
+                },
+                "costumer": [{
+                    "addressType": {
+                        "type": "String"
+                    },
+                    "fullAddress": {
+                        "type": "String"
+                    },
+                    "city": {
+                        "type": "String"
+                    },
+                    "landmark": {
+                        "type": "String"
+                    },
+                    "state": {
+                        "type": "String"
+                    },
+                    "name": {
+                        "type": "String"
+                    },
+                    "phoneNumber": {
+                        "type": "String"
+                    },
+                    "pincode": {
+                        "type": "String"
+                    },
+                    "locality": {
+                        "type": "String"
+                    }
+                }]
+            }
+        }
+    }
+}

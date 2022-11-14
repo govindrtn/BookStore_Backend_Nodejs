@@ -1,0 +1,1143 @@
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (C:\Users\hp\BookStore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\BookStore\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Thu Nov 03 2022 21:50:22 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":97712},"process":{"argv":["node","C:\\Users\\hp\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18976642,"external":21231640,"heapTotal":78917632,"heapUsed":48769040,"rss":115544064},"pid":1276,"uid":null,"version":"v14.17.6"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-03T16:20:22.658Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\BookStore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (C:\Users\hp\BookStore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\BookStore\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32) {"date":"Thu Nov 03 2022 21:53:20 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":97890},"process":{"argv":["node","C:\\Users\\hp\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19347392,"external":21602390,"heapTotal":76849152,"heapUsed":51993360,"rss":115118080},"pid":15508,"uid":null,"version":"v14.17.6"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)","timestamp":"2022-11-03T16:23:20.712Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\BookStore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (C:\Users\hp\BookStore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\BookStore\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Thu Nov 03 2022 21:57:30 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":98139},"process":{"argv":["node","C:\\Users\\hp\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18915067,"external":21172193,"heapTotal":77869056,"heapUsed":50299592,"rss":114941952},"pid":464,"uid":null,"version":"v14.17.6"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-03T16:27:30.402Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\BookStore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (C:\Users\hp\BookStore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\BookStore\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32) {"date":"Thu Nov 03 2022 21:58:24 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":98194},"process":{"argv":["node","C:\\Users\\hp\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18351841,"external":20606839,"heapTotal":77111296,"heapUsed":41581264,"rss":115015680},"pid":10424,"uid":null,"version":"v14.17.6"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)","timestamp":"2022-11-03T16:28:24.508Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\BookStore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (C:\Users\hp\BookStore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\BookStore\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Thu Nov 03 2022 22:00:50 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":98340},"process":{"argv":["node","C:\\Users\\hp\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19140903,"external":21395901,"heapTotal":77602816,"heapUsed":49564776,"rss":114933760},"pid":16244,"uid":null,"version":"v14.17.6"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-03T16:30:50.767Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\BookStore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (C:\Users\hp\BookStore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\BookStore\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Thu Nov 03 2022 22:02:01 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":98411},"process":{"argv":["node","C:\\Users\\hp\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19364399,"external":21619397,"heapTotal":77340672,"heapUsed":53591624,"rss":114409472},"pid":17404,"uid":null,"version":"v14.17.6"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-03T16:32:01.700Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\hp\\BookStore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-03T17:00:47.984Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token / in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-03T17:22:49.516Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token / in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-03T17:22:51.979Z"}
+error: 
+    status - 500 
+    message - Error: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-03T17:24:32.178Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token / in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-03T17:25:14.555Z"}
+error: 
+    status - 500 
+    message - Error: Book validation failed
+    at ValidationError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (C:\Users\hp\BookStore\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\hp\BookStore\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\hp\BookStore\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\hp\BookStore\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\hp\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\hp\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\hp\BookStore\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee$ (C:\Users\hp\BookStore\src\services\/book.service.js:7:27)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newBook (C:\Users\hp\BookStore\src\services\/book.service.js:5:21)
+    at _callee$ (C:\Users\hp\BookStore\src\controllers\/book.controller.js:8:36)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newBook (C:\Users\hp\BookStore\src\controllers\/book.controller.js:6:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at BookValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:21:52.092Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:26:23.479Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:26:25.848Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:35:18.630Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:35:20.840Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:35:22.193Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:35:23.457Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:36:43.703Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:37:46.403Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:37:48.056Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:38:11.273Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:38:12.792Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at BookValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:39:19.305Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at BookValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:39:20.879Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at BookValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:39:22.418Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 89
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-07T03:28:50.778Z"}
+error: uncaughtException: (0 , _chai.default) is not a function
+TypeError: (0 , _chai.default) is not a function
+    at Test.<anonymous> (C:\Users\hp\BookStore\tests\integration\/user.test.js:44:17)
+    at Test.assert (C:\Users\hp\BookStore\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\hp\BookStore\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Mon Nov 07 2022 09:27:38 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":44727},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\hp\\BookStore\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18377046,"external":20215717,"heapTotal":127983616,"heapUsed":76547720,"rss":163155968},"pid":8016,"uid":null,"version":"v14.17.6"},"stack":"TypeError: (0 , _chai.default) is not a function\n    at Test.<anonymous> (C:\\Users\\hp\\BookStore\\tests\\integration\\/user.test.js:44:17)\n    at Test.assert (C:\\Users\\hp\\BookStore\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\hp\\BookStore\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-11-07T03:57:39.137Z","trace":[{"column":17,"file":"C:\\Users\\hp\\BookStore\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"C:\\Users\\hp\\BookStore\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at TypeError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new TypeError (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:43:47)
+    at Function.use (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\hp\BookStore\src\routes\/index.js:22:10)
+    at Object.<anonymous> (C:\Users\hp\BookStore\src\/index.js:32:38)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Wed Nov 09 2022 13:28:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":59508},"process":{"argv":["node","C:\\Users\\hp\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18859707,"external":21270631,"heapTotal":115924992,"heapUsed":88158680,"rss":153600000},"pid":6020,"uid":null,"version":"v14.17.6"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at TypeError.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\core-js\\internals\\wrap-error-constructor-with-cause.js:37:62)\n    at new TypeError (C:\\Users\\hp\\BookStore\\node_modules\\core-js\\modules\\es.error.cause.js:43:47)\n    at Function.use (C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\hp\\BookStore\\src\\routes\\/index.js:22:10)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-09T07:58:17.315Z","trace":[{"column":62,"file":"C:\\Users\\hp\\BookStore\\node_modules\\core-js\\internals\\wrap-error-constructor-with-cause.js","function":null,"line":37,"method":null,"native":false},{"column":47,"file":"C:\\Users\\hp\\BookStore\\node_modules\\core-js\\modules\\es.error.cause.js","function":"new TypeError","line":43,"method":null,"native":false},{"column":13,"file":"C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\hp\\BookStore\\src\\routes\\/index.js","function":"routes","line":22,"method":null,"native":false},{"column":38,"file":"C:\\Users\\hp\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/636ab8743338ef19a88b941cgd 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-10T07:03:33.183Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/636ab8743338ef19a88b94 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-10T07:03:41.324Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token / in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/carts/636ab8783338ef19a88b942c 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-10T19:56:06.921Z"}
+error: 
+    status - 500 
+    message - Error: "fullName" is required 
+    url - /api/v1/users/signUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T08:54:48.533Z"}
+error: 
+    status - 500 
+    message - Error: "fullName" is required 
+    url - /api/v1/users/signUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T09:46:14.550Z"}
+error: 
+    status - 500 
+    message - Error: "fullName" is required 
+    url - /api/v1/users/signUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T09:46:23.993Z"}

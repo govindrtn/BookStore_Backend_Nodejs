@@ -1,0 +1,238 @@
+info: ::1 - - [10/Nov/2022:05:27:54 +0000] "POST /api/v1/carts/6215892405253301a4fda5d2 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:05:28:01 +0000] "POST /api/v1/carts/6215892405253301a4fda5d2 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:05:28:18 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 12631 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:35:56 +0000] "DELETE /api/v1/carts/6215892405253301a4fda5d2 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:36:09 +0000] "DELETE /api/v1/carts/6215892405253301a4fda5d2 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:36:11 +0000] "DELETE /api/v1/carts/6215892405253301a4fda5d2 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:36:13 +0000] "DELETE /api/v1/carts/6215892405253301a4fda5d2 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:36:33 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 12631 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:37:36 +0000] "GET /api/v1/Books/getallBook HTTP/1.1" 200 9419 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:38:18 +0000] "POST /api/v1/carts/62158a8405253301a4fda5e0 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:38:33 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 12631 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:18 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:21 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:24 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:26 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:27 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:28 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:30 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:31 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:32 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:33 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:35 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:36 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:37 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:38 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:39 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:41 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:42 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:43 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:44 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:46 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:48 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:49 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:40:52 +0000] "DELETE /api/v1/carts/6369d452823cac17e4c770fc HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:41:12 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 12631 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:42:01 +0000] "DELETE /api/v1/carts/636ab46a433dac22b8b293b1 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:42:04 +0000] "DELETE /api/v1/carts/636ab46a433dac22b8b293b1 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:42:12 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 12360 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:43:08 +0000] "DELETE /api/v1/carts/636ab6f0cfd39805f04c1eb0 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:43:15 +0000] "DELETE /api/v1/carts/636ab6f0cfd39805f04c1eb0 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:43:26 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 12360 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:44:46 +0000] "DELETE /api/v1/carts/636ab4acbbbd71478c1a8c29 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:44:49 +0000] "DELETE /api/v1/carts/636ab4acbbbd71478c1a8c29 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:44:50 +0000] "DELETE /api/v1/carts/636ab4acbbbd71478c1a8c29 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:44:52 +0000] "DELETE /api/v1/carts/636ab4acbbbd71478c1a8c29 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:44:53 +0000] "DELETE /api/v1/carts/636ab4acbbbd71478c1a8c29 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:45:07 +0000] "GET /api/v1/carts/getallBook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:45:20 +0000] "GET /api/v1/carts/g HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:45:27 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 12089 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:45:45 +0000] "DELETE /api/v1/carts/636907d0838726110454af3e HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:45:54 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 10058 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:46:13 +0000] "DELETE /api/v1/carts/636ab10f2339df45f83e6e90 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:46:22 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 9821 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:47:02 +0000] "DELETE /api/v1/carts/636ab1162339df45f83e6e95 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:47:22 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 9584 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:48:21 +0000] "DELETE /api/v1/carts/636ab11c2339df45f83e6e9a HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:48:29 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 9347 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:49:04 +0000] "DELETE /api/v1/carts/636ab1e799fcb01f5c4a5b0b HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:49:14 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 9067 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:49:17 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 9067 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:49:42 +0000] "DELETE /api/v1/carts/636ab36e65075e47f4a61230 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:49:50 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 8796 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:50:06 +0000] "DELETE /api/v1/carts/636ab37365075e47f4a61235 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:50:15 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 8525 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:50:33 +0000] "DELETE /api/v1/carts/636ab37965075e47f4a6123a HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:50:44 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 8254 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:51:06 +0000] "DELETE /api/v1/carts/636ab3faca77543674df0821 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:51:45 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 7983 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:52:23 +0000] "DELETE /api/v1/carts/636ab402ca77543674df0826 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:52:32 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 7712 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:53:01 +0000] "DELETE /api/v1/carts/636ab463433dac22b8b293ac HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:54:02 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 7441 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:54:34 +0000] "DELETE /api/v1/carts/636ab6ab2c779c1510e62c7c HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:54:47 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 6659 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:55:12 +0000] "DELETE /api/v1/carts/636ab6f0cfd39805f04c1eaf HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:55:22 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 5878 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:55:45 +0000] "DELETE /api/v1/carts/636ab756a13e99464489ee5f HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:55:54 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 5097 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:56:17 +0000] "DELETE /api/v1/carts/636ab75ba13e99464489ee64 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:56:27 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 4316 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:56:56 +0000] "DELETE /api/v1/carts/636b19c3a991093ce81c5caa HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:57:08 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 4079 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:57:27 +0000] "DELETE /api/v1/carts/636b19bca991093ce81c5ca5 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:57:40 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 3842 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:57:55 +0000] "DELETE /api/v1/carts/636ab4afbbbd71478c1a8c2e HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:58:06 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 3571 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:58:24 +0000] "DELETE /api/v1/carts/636ab55b4710d7433c77e4c3 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:58:35 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 3291 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:58:52 +0000] "DELETE /api/v1/carts/636ab5a14710d7433c77e4c8 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:59:00 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 3026 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:59:19 +0000] "DELETE /api/v1/carts/636ab5a54710d7433c77e4cd HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:59:29 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 2761 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:06:59:59 +0000] "DELETE /api/v1/carts/636ab6342c779c1510e62c6b HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:00:33 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 2496 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:00:59 +0000] "DELETE /api/v1/carts/636ab63c2c779c1510e62c70 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:01:12 +0000] "GET /api/v1/carts/g HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:01:18 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 2231 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:01:55 +0000] "DELETE /api/v1/carts/636ab6482c779c1510e62c75 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:02:05 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 1966 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:02:26 +0000] "DELETE /api/v1/carts/636ab7f658e86d3ff4d7b7fb HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:02:35 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 1729 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:02:49 +0000] "DELETE /api/v1/carts/636ab7fa58e86d3ff4d7b800 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:03:01 +0000] "GET /api/v1/carts/g HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:03:06 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 1492 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:03:27 +0000] "DELETE /api/v1/carts/636ab8743338ef19a88b941c HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:03:33 +0000] "DELETE /api/v1/carts/636ab8743338ef19a88b941cgd HTTP/1.1" 500 148 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:03:41 +0000] "DELETE /api/v1/carts/636ab8743338ef19a88b94 HTTP/1.1" 500 144 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:03:59 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 1255 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:04:19 +0000] "DELETE /api/v1/carts/636ab8753338ef19a88b9421 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:04:30 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 1018 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:04:50 +0000] "DELETE /api/v1/carts/636ab8773338ef19a88b9426 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:04:59 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 781 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:05:27 +0000] "DELETE /api/v1/carts/636ab932d840631c4cf75c9f HTTP/1.1" 200 72 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:06:16 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 544 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:07:06:35 +0000] "POST /api/v1/carts/636ab8783338ef19a88b942b HTTP/1.1" 400 69 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:18:10:25 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 544 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:18:12:30 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 544 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:18:23:16 +0000] "POST /api/v1/carts/6215890d05253301a4fda5d1 HTTP/1.1" 200 478 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [10/Nov/2022:18:23:33 +0000] "GET /api/v1/carts/getAllCart HTTP/1.1" 200 717 "-" "PostmanRuntime/7.29.2"
+

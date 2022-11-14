@@ -1,0 +1,864 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:10:04.907Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:10:05.643Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:14:51.906Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:14:52.001Z"}
+error: 
+    status - 500 
+    message - Error: Book validation failed
+    at ValidationError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (C:\Users\hp\BookStore\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\hp\BookStore\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\hp\BookStore\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\hp\BookStore\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\hp\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\hp\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\hp\BookStore\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\hp\BookStore\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee$ (C:\Users\hp\BookStore\src\services\/book.service.js:7:27)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newBook (C:\Users\hp\BookStore\src\services\/book.service.js:5:21)
+    at _callee$ (C:\Users\hp\BookStore\src\controllers\/book.controller.js:8:36)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newBook (C:\Users\hp\BookStore\src\controllers\/book.controller.js:6:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at BookValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:21:52.092Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:22:21.840Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:22:21.875Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:26:11.634Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:26:11.687Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:26:23.479Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:26:25.848Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:28:31.382Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:28:31.457Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:32:33.957Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:32:34.011Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:35:18.630Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:35:20.840Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:35:22.193Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:35:23.457Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:36:43.703Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:37:46.403Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:37:48.056Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:38:11.273Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:38:12.792Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:39:19.102Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:39:19.169Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at BookValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:39:19.305Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at BookValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:39:20.879Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\hp\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:15:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:5:22)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at BookValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:36:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12) 
+    url - /api/v1/Books/createbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-05T08:39:22.418Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:42:03.635Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:42:03.729Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:42:23.481Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:42:23.524Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:44:09.603Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:44:09.656Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:46:14.416Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:46:14.475Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-05T08:47:31.514Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T08:47:31.559Z"}

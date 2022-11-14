@@ -1,0 +1,161 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T18:30:44.422Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T18:30:44.512Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T18:39:48.874Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T18:39:48.940Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T18:43:57.866Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T18:43:58.004Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T18:48:18.364Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T18:48:18.465Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T18:52:56.074Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T18:52:56.186Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T18:56:19.435Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T18:56:19.542Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T18:59:56.996Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T18:59:57.108Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:01:22.756Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:01:22.994Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:06:39.198Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:06:39.435Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:14:33.354Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:14:33.472Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:16:33.033Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:16:33.096Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:18:47.304Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:18:47.360Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:19:53.835Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:19:53.886Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:21:11.100Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:21:11.253Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:24:54.010Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:24:54.063Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:32:42.079Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:32:42.144Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:45:46.311Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:45:46.360Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:50:57.634Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:50:57.836Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token / in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/carts/636ab8783338ef19a88b942c 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-10T19:56:06.921Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T19:59:04.602Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T19:59:04.672Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-10T20:02:00.416Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T20:02:00.546Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T03:29:25.730Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T03:29:25.876Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T03:31:45.686Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T03:31:45.777Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T03:33:20.144Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T03:33:20.251Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T03:33:45.708Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T03:33:45.802Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T03:35:49.714Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T03:35:49.864Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T03:48:50.722Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T03:48:50.825Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T03:49:35.821Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T03:49:35.865Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T03:50:55.419Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T03:50:55.473Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T08:43:09.391Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T08:43:09.537Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T08:43:59.238Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T08:43:59.315Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T08:53:52.487Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T08:53:52.531Z"}
+error: 
+    status - 500 
+    message - Error: "fullName" is required 
+    url - /api/v1/users/signUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T08:54:48.533Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T08:56:13.440Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T08:56:13.485Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:05:23.352Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:05:23.399Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:08:50.177Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:08:50.235Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:09:37.256Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:09:37.302Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:18:21.062Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:18:21.109Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:24:02.394Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:24:02.458Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:24:28.231Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:24:28.280Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:25:38.231Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:25:38.340Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:33:39.550Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:33:39.593Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:38:53.407Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:38:53.490Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:39:28.647Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:39:28.701Z"}
+error: 
+    status - 500 
+    message - Error: "fullName" is required 
+    url - /api/v1/users/signUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T09:46:14.550Z"}
+error: 
+    status - 500 
+    message - Error: "fullName" is required 
+    url - /api/v1/users/signUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T09:46:23.993Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:50:42.795Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:50:42.856Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:54:41.744Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:54:41.807Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:55:24.725Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:55:24.781Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:57:17.048Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:57:17.102Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T09:59:09.529Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T09:59:09.614Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T10:07:22.493Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:07:22.543Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T17:17:40.219Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T17:17:41.483Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T17:46:18.958Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T17:46:19.133Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T17:47:20.874Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T17:47:20.928Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T17:47:53.750Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T17:47:53.828Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T17:57:44.504Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T17:57:44.551Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T18:01:21.865Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:01:21.927Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T18:03:37.812Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:03:37.855Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T18:05:25.321Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:05:25.390Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T18:06:14.029Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:06:14.092Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T18:11:31.078Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:11:31.192Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T18:24:57.810Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:24:58.173Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T18:25:47.632Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:25:47.684Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-11T18:26:11.319Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:26:11.370Z"}

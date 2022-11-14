@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "logs\\requests\\daily\\.66602cdde70fd43456e51d0c9addc83824638c4d-audit.json",
+    "files": [
+        {
+            "date": 1667490583701,
+            "name": "logs\\requests\\daily\\2022-11-03.log",
+            "hash": "9704c2cd508ae46559d736ccafcd816fff2808083014e0040ca72def16b77bd2"
+        },
+        {
+            "date": 1667635804381,
+            "name": "logs\\requests\\daily\\2022-11-05.log",
+            "hash": "f046cefeb03e927dbaa9e4076c26a1c9933a0fb8afb379c730bc7afe01fd0861"
+        },
+        {
+            "date": 1667712009755,
+            "name": "logs\\requests\\daily\\2022-11-06.log",
+            "hash": "b062f30a087de1279d2288301bc2b31a543b132d590d191b09abd74457aa86f9"
+        },
+        {
+            "date": 1667791024226,
+            "name": "logs\\requests\\daily\\2022-11-07.log",
+            "hash": "c7babee99b9ff1bac562c5101e949c488f4d0c3bccf11ffa220349ff20134189"
+        },
+        {
+            "date": 1667879821285,
+            "name": "logs\\requests\\daily\\2022-11-08.log",
+            "hash": "d94e76e09f3381002814ca242f040693519a671c09eef74f1c8c9b1fc7255311"
+        },
+        {
+            "date": 1667936141015,
+            "name": "logs\\requests\\daily\\2022-11-09.log",
+            "hash": "b387391327b29121d6b370c5878d0f5d7043c67d5bba032362227e906333a490"
+        },
+        {
+            "date": 1668022553132,
+            "name": "logs\\requests\\daily\\2022-11-10.log",
+            "hash": "1fc0a97a907590a77535c3e2bc993c3d15da05769b2dd07f8888587445a9a19c"
+        },
+        {
+            "date": 1668105044302,
+            "name": "logs\\requests\\daily\\2022-11-11.log",
+            "hash": "4e1c6faa2c62efc45e17e9c9bf9aad1a0321fb9f0c71e52e78df3809422dd722"
+        },
+        {
+            "date": 1668191937854,
+            "name": "logs\\requests\\daily\\2022-11-12.log",
+            "hash": "c962b0895b754980b619229a5632bfb3300ea6fd5efaa230672fc60896b83067"
+        }
+    ],
+    "hashType": "sha256"
+}
