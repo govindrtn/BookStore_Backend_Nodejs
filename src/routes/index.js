@@ -6,6 +6,7 @@ import bookRoute from './book.route';
 import cartRoute from './cart.route';
 import wishListRoute from './wishlist.route';
 import customerRoute from './customer.route';
+import orderRoute from './order.route'
 /**
  * Function contains Application routes
  *
@@ -20,6 +21,7 @@ const routes = () => {
   router.use('/carts', cartRoute);
   router.use('/wishLists', wishListRoute);
   router.use('/customers', customerRoute);
+  router.use('/orders', orderRoute);
   return router;
 };
 

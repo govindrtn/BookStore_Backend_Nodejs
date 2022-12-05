@@ -1,7 +1,9 @@
 import Customer from '../models/customer.model';
 
 export const createCustomer = async (body) => {
-    const customerDetails = await Customer.create({ userId: body.userId, costumer: [body] })
+    console.log("customer user id ", body.userId);
+    console.log("customer user id ", body);
+    const customerDetails = await Customer.create({ userId: body.userId, customer: [body] })
     if (customerDetails) {
         return customerDetails;
     }

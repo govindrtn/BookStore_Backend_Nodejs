@@ -50,6 +50,22 @@ export const addCart = async (_id, body) => {
     }
 };
 
+export const updateQuantity = async (_id, body) => {
+    const cart = await Cart.findByIdAndUpdate(
+      {
+        _id
+      },
+      body,
+      {
+        quantity : 1
+      },
+      {
+        new: true
+      }
+    );
+    return cart;
+  };
+
 
 
 
@@ -67,8 +83,8 @@ export const getAllCart = async () => {
 };
 
 // Delete Cart book
-export const deleteCart = async (id) => {
-    await Cart.findByIdAndDelete(id);
+export const deleteCart = async (_id) => {
+    await Cart.findByIdAndDelete(_id);
     return '';
   };
 

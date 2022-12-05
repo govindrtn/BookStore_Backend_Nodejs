@@ -29,7 +29,7 @@ export const signUp = async (req, res, next) => {
 
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: data,
+      accessToken:data,
       message: 'User login.... successfully...'
     });
   } catch (error) {

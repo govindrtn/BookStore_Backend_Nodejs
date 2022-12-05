@@ -55,3 +55,10 @@ export const getAllWishlist = async () => {
     }
 
   };
+
+
+  // Delete Cart book
+export const deleteWishlist = async (id) => {
+    await wishList.findByIdAndDelete(id);
+    return '';
+  };

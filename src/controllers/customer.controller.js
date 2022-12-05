@@ -5,6 +5,7 @@ import * as CustomerService from '../services/customer.service';
 export const createCustomer = async (req, res, next) => {
   try {
     const data = await CustomerService.createCustomer(req.body);
+    console.log("create customer data ----> ". data)
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

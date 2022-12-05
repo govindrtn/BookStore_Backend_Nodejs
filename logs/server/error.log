@@ -1141,3 +1141,776 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-11-11T09:46:23.993Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:07.312Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:53.816Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:55.243Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:56.386Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:57.550Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:58.738Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:59.925Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:16:22.643Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:16:24.052Z"}
+error: 
+    status - 500 
+    message - Error: "fullName" is required 
+    url - /api/v1/users/signUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:18:42.875Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:47:31.571Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:47:38.308Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:48:01.270Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:49:23.206Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:52:39.511Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:56:02.554Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:56:19.870Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:56:21.549Z"}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\hp\BookStore\build\index.js:22:23)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sat Nov 26 2022 09:51:27 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\hp\\BookStore\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":155345},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\hp\\BookStore\\build\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19745659,"external":21538581,"heapTotal":97325056,"heapUsed":70647120,"rss":131424256},"pid":16852,"uid":null,"version":"v14.17.6"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\hp\\BookStore\\build\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\build\\index.js:22:23)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-26T04:21:27.946Z","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":23,"file":"C:\\Users\\hp\\BookStore\\build\\index.js","function":null,"line":22,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\hp\BookStore\build\index.js:23:23)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sat Nov 26 2022 09:54:09 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\hp\\BookStore\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":155506},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\hp\\BookStore\\build\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20087051,"external":21879973,"heapTotal":97062912,"heapUsed":70480432,"rss":131661824},"pid":14232,"uid":null,"version":"v14.17.6"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\hp\\BookStore\\build\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\build\\index.js:23:23)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-26T04:24:09.335Z","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":23,"file":"C:\\Users\\hp\\BookStore\\build\\index.js","function":null,"line":23,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\hp\BookStore\build\index.js:23:23)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sat Nov 26 2022 10:02:32 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\hp\\BookStore\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":156010},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\hp\\BookStore\\build\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20186469,"external":21979391,"heapTotal":97325056,"heapUsed":70463952,"rss":131563520},"pid":12560,"uid":null,"version":"v14.17.6"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\hp\\BookStore\\build\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\build\\index.js:23:23)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-26T04:32:32.738Z","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":23,"file":"C:\\Users\\hp\\BookStore\\build\\index.js","function":null,"line":23,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\hp\BookStore\build\index.js:22:23)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sat Nov 26 2022 10:10:59 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\hp\\BookStore\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":156517},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\hp\\BookStore\\build\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18593316,"external":20386238,"heapTotal":98893824,"heapUsed":63138744,"rss":130314240},"pid":9560,"uid":null,"version":"v14.17.6"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\hp\\BookStore\\build\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\build\\index.js:22:23)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-26T04:40:59.958Z","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":23,"file":"C:\\Users\\hp\\BookStore\\build\\index.js","function":null,"line":22,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\hp\BookStore\build\index.js:22:23)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sat Nov 26 2022 10:12:46 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\hp\\BookStore\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":156624},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\hp\\BookStore\\build\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20097125,"external":21890047,"heapTotal":96538624,"heapUsed":70667008,"rss":131407872},"pid":12864,"uid":null,"version":"v14.17.6"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\hp\\BookStore\\build\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\build\\index.js:22:23)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-26T04:42:46.697Z","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":23,"file":"C:\\Users\\hp\\BookStore\\build\\index.js","function":null,"line":22,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\hp\BookStore\build\index.js:22:23)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sat Nov 26 2022 10:14:57 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\hp\\BookStore\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":156754},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\hp\\BookStore\\build\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20084364,"external":21877286,"heapTotal":97325056,"heapUsed":70455440,"rss":131801088},"pid":19292,"uid":null,"version":"v14.17.6"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\hp\\BookStore\\build\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\build\\index.js:22:23)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-26T04:44:57.281Z","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":23,"file":"C:\\Users\\hp\\BookStore\\build\\index.js","function":null,"line":22,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\hp\BookStore\build\index.js:22:23)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sat Nov 26 2022 10:40:25 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\hp\\BookStore\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":890},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\hp\\BookStore\\build\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20327540,"external":22120462,"heapTotal":96272384,"heapUsed":67698792,"rss":126676992},"pid":9276,"uid":null,"version":"v14.17.6"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\hp\\BookStore\\build\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\build\\index.js:22:23)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-26T05:10:25.599Z","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":23,"file":"C:\\Users\\hp\\BookStore\\build\\index.js","function":null,"line":22,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\hp\BookStore\build\index.js:22:23)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sat Nov 26 2022 10:41:48 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\hp\\BookStore\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":972},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\hp\\BookStore\\build\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20154280,"external":21947202,"heapTotal":96800768,"heapUsed":70714112,"rss":130064384},"pid":13696,"uid":null,"version":"v14.17.6"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\hp\\BookStore\\build\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\build\\index.js:22:23)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-26T05:11:48.404Z","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":23,"file":"C:\\Users\\hp\\BookStore\\build\\index.js","function":null,"line":22,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+Error: Cannot find module './swagger/swagger.json'
+Require stack:
+- C:\Users\hp\BookStore\build\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\hp\BookStore\build\index.js:22:23)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sat Nov 26 2022 10:42:55 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\hp\\BookStore\\build\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1039},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\hp\\BookStore\\build\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20134151,"external":21927073,"heapTotal":97062912,"heapUsed":70304904,"rss":129425408},"pid":13824,"uid":null,"version":"v14.17.6"},"stack":"Error: Cannot find module './swagger/swagger.json'\nRequire stack:\n- C:\\Users\\hp\\BookStore\\build\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:745:27)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\build\\index.js:22:23)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-26T05:12:55.418Z","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":889,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":745,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":23,"file":"C:\\Users\\hp\\BookStore\\build\\index.js","function":null,"line":22,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: "fullName" is required 
+    url - /api/v1/users/signUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-27T16:55:37.992Z"}
+error: 
+    status - 500 
+    message - Error: "fullName" length must be at least 6 characters long 
+    url - /api/v1/users/signUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-27T16:58:00.418Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/%7Bproduct._id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-27T17:34:41.892Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/%7Bproduct._id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-27T17:35:10.306Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/%7Bproduct._id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-27T17:35:32.860Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/%7Bproduct._id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-27T17:38:05.985Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/%7Bproduct._id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-27T17:38:25.908Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishLists/getAllwishList 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T05:58:34.553Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 78
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/signIn 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-28T06:13:47.944Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee3$ (C:\Users\hp\BookStore\src\services\/cart.service.js:71:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.deleteCart (C:\Users\hp\BookStore\src\services\/cart.service.js:70:24)
+    at _callee3$ (C:\Users\hp\BookStore\src\controllers\/cart.controller.js:43:23)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at deleteCart (C:\Users\hp\BookStore\src\controllers\/cart.controller.js:41:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T16:40:54.499Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee3$ (C:\Users\hp\BookStore\src\services\/cart.service.js:73:12)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.deleteCart (C:\Users\hp\BookStore\src\services\/cart.service.js:70:24)
+    at _callee3$ (C:\Users\hp\BookStore\src\controllers\/cart.controller.js:43:23)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at deleteCart (C:\Users\hp\BookStore\src\controllers\/cart.controller.js:41:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T16:45:16.325Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T17:07:08.756Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'findByIdAndDelete' of null
+    at _callee4$ (C:\Users\hp\BookStore\src\services\/cart.service.js:89:28)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T17:24:14.951Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'findByIdAndDelete' of null
+    at _callee4$ (C:\Users\hp\BookStore\src\services\/cart.service.js:89:28)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T17:25:31.810Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'findByIdAndDelete' of null
+    at _callee4$ (C:\Users\hp\BookStore\src\services\/cart.service.js:89:28)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T17:25:33.553Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishLists/5234568385364327/ 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-29T09:21:06.324Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at TypeError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new TypeError (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:43:47)
+    at Function.use (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\hp\BookStore\src\routes\/index.js:24:10)
+    at Object.<anonymous> (C:\Users\hp\BookStore\src\/index.js:36:38)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Wed Nov 30 2022 12:30:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3972},"process":{"argv":["node","C:\\Users\\hp\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18698589,"external":21108977,"heapTotal":172498944,"heapUsed":138136752,"rss":203427840},"pid":8024,"uid":null,"version":"v14.17.6"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at TypeError.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\core-js\\internals\\wrap-error-constructor-with-cause.js:37:62)\n    at new TypeError (C:\\Users\\hp\\BookStore\\node_modules\\core-js\\modules\\es.error.cause.js:43:47)\n    at Function.use (C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\hp\\BookStore\\src\\routes\\/index.js:24:10)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\src\\/index.js:36:38)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-30T07:00:11.987Z","trace":[{"column":62,"file":"C:\\Users\\hp\\BookStore\\node_modules\\core-js\\internals\\wrap-error-constructor-with-cause.js","function":null,"line":37,"method":null,"native":false},{"column":47,"file":"C:\\Users\\hp\\BookStore\\node_modules\\core-js\\modules\\es.error.cause.js","function":"new TypeError","line":43,"method":null,"native":false},{"column":13,"file":"C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\hp\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"C:\\Users\\hp\\BookStore\\src\\/index.js","function":null,"line":36,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at TypeError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new TypeError (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:43:47)
+    at Function.use (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\hp\BookStore\src\routes\/index.js:24:10)
+    at Object.<anonymous> (C:\Users\hp\BookStore\src\/index.js:36:38)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Wed Nov 30 2022 12:31:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4068},"process":{"argv":["node","C:\\Users\\hp\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18692685,"external":21103073,"heapTotal":161488896,"heapUsed":112223624,"rss":200323072},"pid":8388,"uid":null,"version":"v14.17.6"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at TypeError.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\core-js\\internals\\wrap-error-constructor-with-cause.js:37:62)\n    at new TypeError (C:\\Users\\hp\\BookStore\\node_modules\\core-js\\modules\\es.error.cause.js:43:47)\n    at Function.use (C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\hp\\BookStore\\src\\routes\\/index.js:24:10)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\src\\/index.js:36:38)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","timestamp":"2022-11-30T07:01:48.372Z","trace":[{"column":62,"file":"C:\\Users\\hp\\BookStore\\node_modules\\core-js\\internals\\wrap-error-constructor-with-cause.js","function":null,"line":37,"method":null,"native":false},{"column":47,"file":"C:\\Users\\hp\\BookStore\\node_modules\\core-js\\modules\\es.error.cause.js","function":"new TypeError","line":43,"method":null,"native":false},{"column":13,"file":"C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\hp\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"C:\\Users\\hp\\BookStore\\src\\/index.js","function":null,"line":36,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at TypeError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new TypeError (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:43:47)
+    at Function.use (C:\Users\hp\BookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\hp\BookStore\src\routes\/index.js:24:10)
+    at Object.<anonymous> (C:\Users\hp\BookStore\src\/index.js:36:38)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32) {"date":"Wed Nov 30 2022 12:33:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4160},"process":{"argv":["node","C:\\Users\\hp\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\hp\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18721019,"external":21131407,"heapTotal":155197440,"heapUsed":113852696,"rss":194326528},"pid":13256,"uid":null,"version":"v14.17.6"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at TypeError.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\core-js\\internals\\wrap-error-constructor-with-cause.js:37:62)\n    at new TypeError (C:\\Users\\hp\\BookStore\\node_modules\\core-js\\modules\\es.error.cause.js:43:47)\n    at Function.use (C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\hp\\BookStore\\src\\routes\\/index.js:24:10)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\src\\/index.js:36:38)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)","timestamp":"2022-11-30T07:03:19.999Z","trace":[{"column":62,"file":"C:\\Users\\hp\\BookStore\\node_modules\\core-js\\internals\\wrap-error-constructor-with-cause.js","function":null,"line":37,"method":null,"native":false},{"column":47,"file":"C:\\Users\\hp\\BookStore\\node_modules\\core-js\\modules\\es.error.cause.js","function":"new TypeError","line":43,"method":null,"native":false},{"column":13,"file":"C:\\Users\\hp\\BookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\hp\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"C:\\Users\\hp\\BookStore\\src\\/index.js","function":null,"line":36,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false}]}

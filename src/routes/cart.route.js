@@ -6,12 +6,19 @@ import { userAuth} from '../middlewares/auth.middleware';
 const router = express.Router();
 
 //route to Add book into Cart
-router.post('/:_id', userAuth ,cartController.addCart);
+router.post('/:_id',userAuth,cartController.addCart);
+
+router.put('/:_id',userAuth, cartController.updateQuantity);
 
 //route to get all Cart items
-router.get('/getAllCart',cartController.getAllCart);
+router.get('/getAllCart',userAuth,cartController.getAllCart);
 
 // route to dete cart book
-router.delete('/:_id', cartController.deleteCart);
+router.delete('/:_id',userAuth,cartController.deleteCart);
 
 export default router;
+
+
+
+
+  

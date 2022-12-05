@@ -1,0 +1,322 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T03:29:12.119Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T03:29:12.182Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T03:57:22.205Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T03:57:22.267Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:01:03.429Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:01:03.488Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:04:08.700Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:04:08.766Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:06:33.884Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:06:33.932Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:07:48.076Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:07:48.114Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:11:06.515Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:11:06.589Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:14:47.171Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:14:47.218Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:15:25.890Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:15:25.954Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:18:11.265Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:18:11.350Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:20:21.666Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:20:21.710Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:27:36.010Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:27:36.054Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:29:05.895Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:29:05.929Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:32:57.017Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:32:57.060Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:38:18.276Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:38:18.316Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:39:03.953Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:39:03.996Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:39:50.142Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:39:50.176Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:42:25.763Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:42:25.849Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:45:40.405Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:45:40.449Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:47:30.385Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:47:30.434Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:48:16.529Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:48:16.576Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:53:02.805Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:53:02.852Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:55:35.954Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:55:35.996Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:55:57.804Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:55:57.845Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T04:56:26.246Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T04:56:26.286Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:00:23.938Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:00:23.986Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:01:10.135Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:01:10.175Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:05:11.492Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:05:11.532Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:05:56.214Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:05:56.253Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:11:06.916Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:11:06.957Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:11:56.895Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:11:56.929Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:13:13.553Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:13:13.596Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:13:57.737Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:13:57.776Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:15:22.886Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:15:22.920Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:16:39.449Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:16:39.490Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:17:30.594Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:17:30.627Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:19:56.117Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:19:56.167Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:27:09.972Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:27:10.011Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:30:21.908Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:30:22.042Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:34:15.995Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:34:16.090Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:39:03.289Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:39:03.426Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:46:38.216Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:46:38.443Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:50:30.947Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:50:31.158Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:51:01.029Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:51:01.188Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:51:37.949Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:51:38.105Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T05:54:09.449Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T05:54:09.608Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishLists/getAllwishList 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T05:58:34.553Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T06:01:49.807Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T06:01:49.920Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T06:05:18.872Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T06:05:18.958Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T06:08:37.255Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T06:08:37.410Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 78
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\hp\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\hp\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/signIn 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-28T06:13:47.944Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T06:40:14.343Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T06:40:14.466Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T06:40:58.560Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T06:40:58.679Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T06:41:15.094Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T06:41:15.287Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T06:42:26.788Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T06:42:27.073Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T06:43:19.974Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T06:43:20.241Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T06:46:33.330Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T06:46:33.599Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T07:15:41.992Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T07:15:42.135Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T07:19:21.762Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T07:19:21.966Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T07:20:01.759Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T07:20:01.903Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T11:39:28.873Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T11:39:31.083Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T12:09:14.500Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T12:09:14.535Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T16:07:23.851Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T16:07:23.930Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T16:07:47.902Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T16:07:47.950Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T16:19:40.245Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T16:19:40.305Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T16:36:33.919Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T16:36:33.954Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T16:37:12.830Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T16:37:12.886Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T16:40:20.371Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T16:40:20.470Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee3$ (C:\Users\hp\BookStore\src\services\/cart.service.js:71:32)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.deleteCart (C:\Users\hp\BookStore\src\services\/cart.service.js:70:24)
+    at _callee3$ (C:\Users\hp\BookStore\src\controllers\/cart.controller.js:43:23)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at deleteCart (C:\Users\hp\BookStore\src\controllers\/cart.controller.js:41:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T16:40:54.499Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T16:41:35.637Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T16:41:35.681Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T16:45:09.224Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T16:45:09.261Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee3$ (C:\Users\hp\BookStore\src\services\/cart.service.js:73:12)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.deleteCart (C:\Users\hp\BookStore\src\services\/cart.service.js:70:24)
+    at _callee3$ (C:\Users\hp\BookStore\src\controllers\/cart.controller.js:43:23)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at deleteCart (C:\Users\hp\BookStore\src\controllers\/cart.controller.js:41:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T16:45:16.325Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T16:57:14.818Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T16:57:14.862Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:04:09.051Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:04:09.229Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:05:41.816Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:05:41.958Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:06:23.537Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:06:23.654Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:07:00.225Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:07:00.308Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\BookStore\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T17:07:08.756Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:08:49.275Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:08:49.430Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:14:58.854Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:14:58.997Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:20:26.879Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:20:26.931Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:23:36.445Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:23:36.501Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'findByIdAndDelete' of null
+    at _callee4$ (C:\Users\hp\BookStore\src\services\/cart.service.js:89:28)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T17:24:14.951Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:25:01.399Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:25:01.439Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:25:12.108Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:25:12.152Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'findByIdAndDelete' of null
+    at _callee4$ (C:\Users\hp\BookStore\src\services\/cart.service.js:89:28)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T17:25:31.810Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'findByIdAndDelete' of null
+    at _callee4$ (C:\Users\hp\BookStore\src\services\/cart.service.js:89:28)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/carts/6384e47668d7950328b02210 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T17:25:33.553Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:46:46.538Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:46:46.622Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-28T17:48:27.622Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T17:48:27.669Z"}

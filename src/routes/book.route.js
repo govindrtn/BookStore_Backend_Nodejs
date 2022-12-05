@@ -8,11 +8,10 @@ import { userAuth} from '../middlewares/auth.middleware';
 const router = express.Router();
 
 //route to get all books
-router.get('/getallBook', userAuth, bookController.getAllBook);
+router.get('/getallBook',userAuth,bookController.getAllBook);
 
 // route to get a book by id 
-router.get("/:_id", bookController.getBook);
-
+router.get("/:_id",userAuth,bookController.getBook);
 
 export default router;
 

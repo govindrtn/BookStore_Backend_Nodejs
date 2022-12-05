@@ -36,6 +36,22 @@ export const getAllWishlist = async (req, res, next) => {
   }
 };
 
+// delete Cart book
+export const deleteWishlist = async (req, res, next) => {
+  try {
+    await wishListService.deleteWishlist(req.params._id);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: [],
+      message: 'WishList bookdeleted successfully.......'
+    });
+    // console.log("Note Deleted..... ")
+  } catch (error) {
+    next(error);
+  }
+};
+
+
 
 
 

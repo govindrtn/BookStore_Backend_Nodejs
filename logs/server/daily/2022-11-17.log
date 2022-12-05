@@ -1,0 +1,168 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-17T17:08:10.688Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T17:08:11.535Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:07.312Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:53.816Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:55.243Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:56.386Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:57.550Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:58.738Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:15:59.925Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:16:22.643Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at CustomerValidator (C:\Users\hp\BookStore\src\validators\/user.validator.js:57:16)
+    at Layer.handle [as handle_request] (C:\Users\hp\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\BookStore\src\middlewares\/auth.middleware.js:19:5)
+    at tryCatch (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/customers/createCostumer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:16:24.052Z"}
+error: 
+    status - 500 
+    message - Error: "fullName" is required 
+    url - /api/v1/users/signUp 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-17T17:18:42.875Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-17T17:22:31.828Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T17:22:31.949Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-17T17:23:54.440Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T17:23:54.485Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-11-17T17:28:52.584Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T17:28:52.713Z"}
